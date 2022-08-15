@@ -37,7 +37,7 @@ function newNonPlayableCharacter(x, y) {
         stop()
 
     }
-
+    
     async function walkWest(time) {
         direction = 'west'
         element.src = `./assets/red-character/west.gif`
